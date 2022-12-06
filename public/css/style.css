@@ -1,0 +1,450 @@
+:root{
+    --main-radius:5px;
+    --main-padding:5px;
+    --blue: #1bb7b4;
+    --white: pink;
+    --yellowish: yellow;
+
+}
+body{
+    background-color: #EAF4F4;
+}
+.container{
+    height: 100vh;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: white;
+    display: grid;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 1.2fr 1.2fr 0.8fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "main main main main"
+    "content1 content1 content1 content1"
+    "content2 content2 content2 content2"
+    "content3 content3 content3 content3"
+    "article1 article1 article1 article1"
+    "footer footer footer footer";
+
+    gap: 0.5em;
+}
+
+nav{
+    background: #BCB6FF;
+    padding: var(--main-padding);
+    grid-area: nav;
+    float: right;
+    position: fixed;
+    width: 100%;
+    border-radius: 3em;
+}
+#intro{
+    width: 40em;
+    text-align: justify;
+    float: left;
+    margin: 12em 0em 0em 5em;
+    margin-right: 0em;
+    color: #292E1E;
+}
+
+main{
+    background: #F1FFFA;
+    padding: var(--main-padding);
+    grid-area: main;
+    border-radius: 3em;
+
+}
+#ProfilePic{
+    width: 35em;
+    height: 20em;
+    border-radius: 5em;
+    margin: 5em 0em 0em 0em;
+    float: right;
+    padding-top: 3em;
+}
+
+.hedaernav{
+    margin: 15px 15px 15px 15px;
+    color: black;
+    text-decoration: none;
+}
+#logo{
+    width: 3em;
+    float: left;
+    position: relative;
+    border-radius: 1.5em;
+}
+#name{
+    text-align: center;
+    position: 12em;
+    float: left;
+    padding-left: 1em;
+    padding-top: 0.8em;
+}
+#Fullname{
+    font-size: 3em;
+    font-style: italic;
+}
+#header1{
+    padding-left: 30em;
+}
+
+.home_botton{
+    background-color: burlywood;
+    color: rgb(165, 93, 201);
+    width: 10em;
+    height: 5em;
+    border-radius: 4em;
+    border: 0.1em;
+    margin: 10em 0em 4em 5em;
+   font-weight: bolder;
+    float: left;
+    text-decoration: none;
+
+}
+#contact_botton{
+    float: right;
+    margin-top: 39em;
+    position: fixed;
+    margin-left: 43em;
+}
+#exp_button{
+    margin-top: 39em;
+    margin-left: -49em;
+
+}
+#pro_button{
+    margin-top: 39em;
+    margin-left: -29em;
+}
+#res_button{
+    margin-left: -6.5em;
+    margin-top: 39em;
+}
+
+.home_botton:hover{
+    background-color: yellow;
+    color: blueviolet;
+    text-decoration: none;
+}
+#content1{
+ /*   background: var(--white); */
+    padding: var(--main-padding);
+    grid-area: content1;
+}
+
+#education{
+    height: 35em;
+    width: 43em;
+    background-color: #DDC3D0;
+    float: left;
+    margin: 1em;
+    text-align: center;
+    border-radius: 3em;
+}
+.headline{
+    color: black;
+    text-emphasis-color: 4em;
+    font-size: 2em;
+}
+.para{
+    display: block;
+    width: 16em;
+    text-align: justify;
+    margin-left: 14em;
+}
+#ed2{
+    margin-left: -3em;
+}
+
+
+#skills{
+    height: 35em;
+    width: 43em;
+    background-color:#FCB07E ;
+    float: right;
+    margin: 1em;
+    border-radius: 3em;
+    text-align: center;
+
+
+}
+li{
+    margin: 4em;
+    font-weight: bold;
+}
+
+#content2{
+    padding: var(--main-padding);
+    text-align: center;
+    grid-area: content2;
+
+
+}
+#experience{
+    width: 98%;
+    height: 35em;
+    background-color: #D6D2D2;
+    margin: 1em;
+    border-radius: 3em;
+}
+
+#content3{
+    padding: var(--main-padding);
+    grid-area: content3;
+    text-align: center;
+
+}
+.project{
+    width: 28.68em;
+    height: 35em;
+    background-color: #9AD4D6;
+    border-radius: 3em;
+    float: left;
+}
+#project1{
+    margin: 1em;
+}
+#project2{
+    margin: 1em;
+}
+#project3{
+    margin: 1em;
+   
+}
+#projectpic1{
+    width: 25em;
+    height: 9em;
+    float: right;
+    margin: -10em 3em 0em 0em;
+    border-radius: 3em;
+
+}
+.projectpic2{
+    width: 12em;
+    height: 13em;
+    margin: 3em 8em 0em 7em;
+    border-radius: 5em;
+}
+.pro_para{
+    text-align: justify;
+    margin: 0em 0.6em 0em 0.6em;
+}
+#exp1{
+    padding-left: -0.1em;
+}
+.exp_sum{
+    text-align: start;
+}
+#article1{
+      
+        padding: var(--main-padding);
+        grid-area: article1;
+
+}
+#blog{
+    height: 35em;
+    width: 43em;
+    background-color: #FDFFFC;
+    float: left;
+    margin: 1em;
+    border-radius: 3em;
+    color: black;
+    text-align: center;
+}
+.blog_sum{
+ text-align: start;
+}
+
+#accomplishments{
+    height: 35em;
+    width: 43em;
+    background-color:#D8D8F6 ;
+    float: right;
+    margin: 1em;
+    border-radius: 3em;
+    text-align: center;
+    font-weight: 5em;
+
+}
+
+footer{
+    background: rgb(173, 169, 54);
+    padding: var(--main-padding);
+    border-radius: 3em;
+    grid-area: footer;
+    height: 9em;
+    text-align: justify;
+}
+
+.sections{
+        width: 25.5em;
+        height: 8em;
+        border-radius: 3em;
+        float: left; 
+        margin: 1em;
+        color: black;
+}
+
+#section1{
+    text-align: center;
+}
+#section2{
+    text-align: center;
+}
+#section3{
+    text-align: center;
+}
+.icon{
+    font-size:28px;
+    margin: 1.8px;
+}
+
+@media only screen and (max-width: 500px){
+    .container{
+        grid-template-rows: 0.4fr 1.2fr 1fr 1fr 1fr 1.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "nav"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "article1"
+        "footer"; 
+        gap: 0.2em;
+        left: 0;
+        right: 0;
+        background-color: #EAF4F4;
+
+        }
+    body{
+            background-color: #EAF4F4;
+        }
+    main{
+        background: none;
+    }
+    nav{
+        width: 56%;
+    border-radius: 1em;
+    }
+    #name{
+        display: none;
+    }
+    .hedaernav {
+        margin: 10px;
+        gap:0.5em;
+    }
+    #header1{
+        padding: 10px;
+    }
+    #intro{
+        width: 50%;
+    margin-left: 2em;
+    margin-top: 6em;
+    }
+    #Fullname{
+        font-size: 2.5em;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #ProfilePic{
+        height: 30%;
+        width: 50%;
+        margin-right: 25em;
+        margin-top: -3em;
+    }
+    .home_botton{
+        margin: 0.2em;
+        width: 15.5%;
+        margin-right: 17.9px;
+        margin-top: 5em;
+        text-decoration: none;
+    }
+    #contact_botton{
+        display: none;
+    }
+    #exp_button{
+        margin-left: 1.5em;
+
+    }
+    #education{
+        width: 56%;
+        margin-left: 0em;
+        
+    }
+
+    .para{
+        margin-left: 8em;
+    }
+    
+    #skills{
+        width: 56%;
+        margin: 0.1em;
+        margin-right: 38em;
+        float: left;
+
+    }
+    li{
+        margin: 3em;
+        font-weight: bold;
+    }
+    #projectpic1{
+        display: none;
+    }
+    #experience{
+        width: 56%;
+        margin-left: 0em;
+    }
+    .exp_sum{
+        margin-left: -3em;
+    }
+    #project1{
+        width: 56%;
+        margin: 0;
+    }
+    #project2{
+        width: 56%;
+        margin-left: -28.5em;
+        margin-top: 37em;
+    }
+    #project3{
+        width: 56%;
+        margin-left: -29.5em;
+        margin-top: 74em;
+    }
+
+    
+    #blog{
+        width: 56%;
+        margin: 0;
+    }
+   #accomplishments{
+    width: 56%;
+    margin-right: 22.5em;
+
+   }
+   footer{
+    width: 56%;
+    height: 92%;
+   } 
+   #section2{
+    margin-top: -4em;
+   }
+   #section3{
+    margin-top: -4em;
+   }
+
+
+
+
+
+
+
+    
+}
+
+
+
+
