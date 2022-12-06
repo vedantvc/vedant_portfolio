@@ -1,5 +1,5 @@
 const path = require("path");
-const port = process.env.PORT || 1337;
+const port = 80;
 var http = require('http');
 var fs = require('fs');
 const { MongoClient } = require('mongodb');
