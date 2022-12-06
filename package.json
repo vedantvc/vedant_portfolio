@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",
-  
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
   "dependencies": {
     "mongodb": "^4.12.1"
   }
