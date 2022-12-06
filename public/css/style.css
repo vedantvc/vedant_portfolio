@@ -105,9 +105,9 @@ main{
 }
 #contact_botton{
     float: right;
-    margin-top: 39em;
+    margin-top: 10em;
     position: fixed;
-    margin-left: 43em;
+    margin-left: 36em;
 }
 #exp_button{
     margin-top: 39em;
@@ -119,8 +119,8 @@ main{
     margin-left: -29em;
 }
 #res_button{
-    margin-left: -6.5em;
-    margin-top: 39em;
+    margin-left: 46.5em;
+    margin-top: 9em;
 }
 
 .home_botton:hover{
@@ -136,7 +136,7 @@ main{
 
 #education{
     height: 35em;
-    width: 43em;
+    width: 40em;
     background-color: #DDC3D0;
     float: left;
     margin: 1em;
@@ -161,7 +161,7 @@ main{
 
 #skills{
     height: 35em;
-    width: 43em;
+    width: 38em;
     background-color:#FCB07E ;
     float: right;
     margin: 1em;
@@ -197,7 +197,7 @@ li{
 
 }
 .project{
-    width: 28.68em;
+    width: 25.5em;
     height: 35em;
     background-color: #9AD4D6;
     border-radius: 3em;
@@ -245,7 +245,7 @@ li{
 }
 #blog{
     height: 35em;
-    width: 43em;
+    width: 40em;
     background-color: #FDFFFC;
     float: left;
     margin: 1em;
@@ -259,7 +259,7 @@ li{
 
 #accomplishments{
     height: 35em;
-    width: 43em;
+    width: 38em;
     background-color:#D8D8F6 ;
     float: right;
     margin: 1em;
