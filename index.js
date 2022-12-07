@@ -46,7 +46,7 @@ var server = http.createServer(function (req, res) {
       const collection = connect.collection("mountains");
       collection.find({}).toArray().then((ans) => {
         res.write(JSON.stringify(ans, null, 2));
-        res.Header("Access-Control-Allow-Origin", "http://localhost:8080")
+        res.header('Access-Control-Allow-Origin', '*');
         res.end();
       });
     }).catch((err) => {
